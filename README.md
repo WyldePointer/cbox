@@ -26,7 +26,7 @@ $ ./cbox 15 5 '~'
 ```
 
 #### Usage
-`Usage: ./unbuffered <width> <height> [char_to_fill]`
+`Usage: ./cbox <width> <height> [char_to_fill]`
 
 #### Compiling
 `$ cc -o cbox -Wall -pedantic -std=c89 cbox.c`
