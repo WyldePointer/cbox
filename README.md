@@ -33,6 +33,7 @@ $ ./cbox 15 5 '~'
 
 #### FAQ
 Q) What's the "buffered" version?
+
 A) It's the same code but it stores the characters in a line buffer
  which is dynamically allocated. The main reason for that version was comparing
  the performance of (`width` * `height`) times of `putc()` with `malloc()` +
@@ -40,6 +41,7 @@ A) It's the same code but it stores the characters in a line buffer
  is a truly expensive call. 
 
 Q) How to store the output in a file?
+
 A) `$ ./cbox 30 10 > /tmp/my.txt`
 
 #### TODO
